@@ -12,4 +12,6 @@ int main()
   c = &y;
   cout << "Alamat memori : " << c << endl;
   cout << "Nilai dari C : " << *c << endl;
+
+  int &d = b;
 }
