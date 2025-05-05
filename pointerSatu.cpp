@@ -18,7 +18,12 @@ int main()
   mhs.nim = 2024;
   mhs.showNim();
 
-  mahasiswa &refMhs = mhs;  // pointer deferance refMhs
+  mahasiswa &refMhs = mhs;  // pointer referance refMhs
   refMhs.nim = 2;           // member access
   mhs.showNim();
+
+  mahasiswa *pMhs = &mhs;
+  pMhs->nim = 3;
+  pMhs->showNim();
+  return 0;
 }
