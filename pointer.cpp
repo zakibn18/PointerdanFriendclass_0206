@@ -7,4 +7,6 @@ int main()
   int b = 6;
   int y = 20;
   int *c = &a;
+  cout << "Alamat memmori : " << c << endl;
+  cout << "Nilai dari  C : " << *c << endl;
 }
