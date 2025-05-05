@@ -18,4 +18,5 @@ int main()
   cout << "Referance" << &d << endl;
 
   int f = 5;
+  int g = f;
 }
