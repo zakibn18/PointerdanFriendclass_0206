@@ -3,11 +3,12 @@ using namespace std;
 
 class mahasiswa
 {
-  int nim;
-  void showNim()
-  {
-    cout << "No Induk : " << nim << endl;
-  }
+  public :
+    int nim;
+    void showNim()
+    {
+      cout << "No Induk : " << nim << endl;
+    }
 };
 
 int main()
