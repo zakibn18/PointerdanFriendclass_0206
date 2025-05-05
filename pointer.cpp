@@ -14,4 +14,6 @@ int main()
   cout << "Nilai dari C : " << *c << endl;
 
   int &d = b;
+  cout << "Nilai " << d << endl;
+  cout << "Referance" << &d << endl;
 }
